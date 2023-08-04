@@ -1,0 +1,379 @@
+html,body{
+    background-color: rgb(157, 97, 214);
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Titulo_principal{
+    font-family: 'Bungee Shade', cursive;
+    font-size:60px ;
+    color:rgb(106, 20, 188);
+
+}
+.nombre{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Monofett', monospace;
+    font-size:50px ;
+    color: rgb(199, 58, 199);
+}
+#iniciar {
+    position:relative;
+    border:none;
+    outline: none;
+    width: 100px;
+    height: 25px;
+    background-color:rgb(106, 20, 188) ;
+    color:white;
+    border-radius: 7px;
+    cursor:pointer;
+    font-family: 'Train One', cursive;
+}
+#iniciar::before {
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:rgb(31, 2, 58) ;
+    z-index: -1;
+    border-radius: 7px;
+    transform:translateY(5px);
+}
+#iniciar:active{
+    transform: translateY(5px);
+}
+#iniciar:active::before{
+    transform:translateY(0) ;
+}
+#nombre_user{
+    position:relative;
+    background: black;
+    color:white;
+    height:35px ;
+    border-radius: 7px; ;
+    font-family: 'REM', sans-serif;
+    text-align: center;
+
+}
+#movies{
+    position:relative;
+    border:none;
+    outline: none;
+    width: 200px;
+    height: 100px;
+    background-color:rgb(106, 20, 188) ;
+    color:white;
+    border-radius: 7px;
+    cursor:pointer;
+    font-family: 'Train One', cursive;
+    font-size:25px;
+    margin:150px 100px 0px 150px;
+}
+
+#movies::before{
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:rgb(31, 2, 58) ;
+    z-index: -1;
+    border-radius: 7px;
+    transform:translateY(5px);
+}
+
+#movies:active {
+    transform: translateY(5px);
+}
+
+#movies:active::before{
+    transform:translateY(0) ;
+}
+
+#musica{
+    position:relative;
+    border:none;
+    outline: none;
+    width: 200px;
+    height: 100px;
+    background-color:rgb(106, 20, 188) ;
+    color:white;
+    border-radius: 7px;
+    cursor:pointer;
+    font-family: 'Train One', cursive;
+    font-size:25px;
+    margin:150px 100px 0px 150px;
+}
+
+#musica::before{
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:rgb(31, 2, 58) ;
+    z-index: -1;
+    border-radius: 7px;
+    transform:translateY(5px);
+}
+
+#musica:active {
+    transform: translateY(5px);
+}
+
+#musica:active::before{
+    transform:translateY(0) ;
+}
+    
+
+.opciones{
+    display: flex;
+    flex-direction: row-reverse;
+    display: flex;
+    align-content: space-between;
+}
+.Titulo_principal1{
+    font-family: 'Bungee Shade', cursive;
+    font-size:60px ;
+    color:rgb(106, 20, 188);
+
+}
+.img{
+    width: 400px;
+    height: 200px;
+}
+.Imagen-Pregunta1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-family: 'Train One', cursive;
+    display: flex;
+    justify-content: center;
+}
+.RESPUESTASP1{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: 'Trispace', sans-serif;
+    font-weight: bold;
+
+}
+.PREGUNTA2{
+    display: flex;
+    flex-direction:column ;
+    align-items:space-between ;
+}
+
+.respuestaA1{
+    font-family: 'Trispace', sans-serif;
+    font-weight: bold;
+}
+
+.respuestaB1{
+    font-family: 'Trispace', sans-serif;
+    font-weight: bold;
+}
+
+.respuestaC1{
+    font-family: 'Trispace', sans-serif;
+    font-weight: bold;
+}
+
+.respuestaD1{
+    font-family: 'Trispace', sans-serif;
+    font-weight: bold;
+}
+
+.PREGUNTA3{
+    display: flex;
+    flex-direction:column ;
+    align-items:space-between ;
+}
+
+.respuestaA3{
+    font-family: 'Trispace', sans-serif;
+    font-weight: bold;
+}
+
+.respuestaB3{
+    font-family: 'Trispace', sans-serif;
+    font-weight: bold;
+}
+
+.respuestaC3{
+    font-family: 'Trispace', sans-serif;
+    font-weight: bold;
+}
+
+.respuestaD3{
+    font-family: 'Trispace', sans-serif;
+    font-weight: bold;
+}
+
+.PUNTAJE{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Monofett', monospace;
+    font-size:60px ;
+    color: black;
+
+}
+
+.REGRESAR{
+    position:relative;
+    border:none;
+    outline: none;
+    width: 100px;
+    height: 50px;
+    background-color:rgb(106, 20, 188) ;
+    color:white;
+    border-radius: 7px;
+    cursor:pointer;
+    font-family: 'Train One', cursive;
+}
+.REGRESAR::before {
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:rgb(31, 2, 58) ;
+    z-index: -1;
+    border-radius: 7px;
+    transform:translateY(5px);
+}
+.REGRESAR:active{
+    transform: translateY(5px);
+}
+.REGRESAR:active::before{
+    transform:translateY(0) ;
+}
+
+.PREGUNTA6{
+    display: flex;
+    flex-direction:column ;
+    align-items:space-between ;
+}
+
+.respuestaA6{
+    font-family: 'Trispace', sans-serif;
+    font-weight: bold;
+}
+
+.respuestaB6{
+    font-family: 'Trispace', sans-serif;
+    font-weight: bold;
+}
+
+.respuestaC6{
+    font-family: 'Trispace', sans-serif;
+    font-weight: bold;
+}
+
+.respuestaD6{
+    font-family: 'Trispace', sans-serif;
+    font-weight: bold;
+}
+
+
+.PREGUNTA6{
+    display: flex;
+    flex-direction:column ;
+    align-items:space-between ;
+}
+
+.respuestaA6{
+    font-family: 'Trispace', sans-serif;
+    font-weight: bold;
+}
+
+.respuestaB6{
+    font-family: 'Trispace', sans-serif;
+    font-weight: bold;
+}
+
+.respuestaC6{
+    font-family: 'Trispace', sans-serif;
+    font-weight: bold;
+}
+
+.respuestaD6{
+    font-family: 'Trispace', sans-serif;
+    font-weight: bold;
+}
+.PREGUNTA6{
+    display: flex;
+    flex-direction:column ;
+    align-items:space-between ;
+}
+
+.respuestaA6{
+    font-family: 'Trispace', sans-serif;
+    font-weight: bold;
+}
+
+.respuestaB6{
+    font-family: 'Trispace', sans-serif;
+    font-weight: bold;
+}
+
+.respuestaC6{
+    font-family: 'Trispace', sans-serif;
+    font-weight: bold;
+}
+
+.respuestaD6{
+    font-family: 'Trispace', sans-serif;
+    font-weight: bold;
+}
+.PREGUNTA5{
+    display: flex;
+    flex-direction:column ;
+    align-items:space-between ;
+}
+
+.respuestaA5{
+    font-family: 'Trispace', sans-serif;
+    font-weight: bold;
+}
+
+.respuestaB5{
+    font-family: 'Trispace', sans-serif;
+    font-weight: bold;
+}
+
+.respuestaC5{
+    font-family: 'Trispace', sans-serif;
+    font-weight: bold;
+}
+
+.respuestaD5{
+    font-family: 'Trispace', sans-serif;
+    font-weight: bold;
+}
+.Bienvenida{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Monofett', monospace;
+    font-size:70px ;
+    color:black;
+}
